@@ -1,0 +1,494 @@
+*{
+    margin:0px;
+}
+.small-nav{
+    text-align: right;
+     font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+.nav{
+    display:flex;
+    align-items: center;
+    margin-top: 20px;
+    .logo h2{
+        color:rgb(35, 129, 73);
+        margin-left: 20px;
+    }
+    .login{
+        margin-left: 20px;
+    }
+    .brands{
+        margin-left: 30px;
+        cursor: pointer;
+    }
+    .brands:hover{
+        color:red;
+        text-decoration: underline;
+    }
+    .red{
+        margin-left:30px;
+        cursor: pointer;
+    }
+    .red:hover{
+        color:red;
+        text-decoration: underline;
+    }
+    .offers{
+        margin-left:30px;
+        cursor: pointer;
+    }
+    .offers:hover{
+        color:red;
+        text-decoration: underline;
+    }
+    .top{
+        margin-left: 30px;
+        cursor: pointer;
+    }
+    .top:hover{
+        color:red;
+        text-decoration: underline;
+    }
+    .for-you{
+        margin-left:30px;
+        cursor: pointer;
+    }
+    .for-you:hover{
+        color:red;
+        text-decoration: underline;
+    }
+    .search{
+        display:flex;
+        align-items: center;
+        width:400px;
+        height: 50px;
+        background-color: rgb(244, 244, 244);
+        border-radius: 10px;
+        margin-left:30px;
+        color: rgb(178, 178, 178);
+        i{
+            margin-left: 20px;
+            font-size: 20px;
+            color: rgb(208, 206, 207);
+        }
+    }
+    .icon{
+       margin-left:30px;
+       display:flex;
+       align-items: center;
+       cursor:pointer;
+       .shopping{
+          color:gray;
+       }
+       .user{
+        color:red;
+        width: 20px;
+        background-color: rgb(252, 242, 239);
+        border-radius: 50%;
+        padding: 5px;
+       }
+       i{
+        margin-right:40px;
+       }
+    }
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 40px;
+    .new{
+         cursor: pointer;
+    }
+    .new:hover{
+        color: red;
+        text-decoration: underline;
+    }
+    .makeup{
+       margin-left: 40px;
+       position: relative;
+       margin-top: 1px;
+       cursor: pointer;
+       .makeup-menu{
+        position: absolute;
+        width:200px;
+        height:0px;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 20px;
+        margin-left: -30px;
+        p{
+            margin-top:10px;
+            text-align: center;
+        }
+       }
+    } .makeup:hover{
+        .makeup-menu{
+            top: 50px;
+         height: 230px;
+        }
+       }
+       .makeup p:hover{
+            color:red;
+       }
+       .skin{
+       margin-left: 40px;
+       position: relative;
+       margin-top: 1px;
+       cursor: pointer;
+       .skin-menu{
+        position: absolute;
+        width:200px;
+        height:0px;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 20px;
+        margin-left: -30px;
+        p{
+            margin-top:15px;
+            text-align: center;
+        }
+       }
+    } .skin:hover{
+        .skin-menu{
+            top: 50px;
+         height: 230px;
+        }
+       }
+       .skin p:hover{
+            color:red;
+       }
+        .hair{
+       margin-left: 40px;
+       position: relative;
+       margin-top: 1px;
+       cursor: pointer;
+       .hair-menu{
+        position: absolute;
+        width:200px;
+        height:0px;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 20px;
+        margin-left: -30px;
+        p{
+            margin-top:15px;
+            text-align: center;
+        }
+       }
+    } .hair:hover{
+        .hair-menu{
+            top: 50px;
+         height: 230px;
+        }
+       }
+       .hair p:hover{
+            color:red;
+       }
+        .fragrance{
+       margin-left: 40px;
+       position: relative;
+       margin-top: 1px;
+       cursor: pointer;
+       .fragrance-menu{
+        position: absolute;
+        width:200px;
+        height:0px;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 20px;
+        margin-left: -30px;
+        p{
+            margin-top:15px;
+            text-align: center;
+        }
+       }
+    } .fragrance:hover{
+        .fragrance-menu{
+            top: 50px;
+         height: 230px;
+        }
+       }
+       .fragrance p:hover{
+            color:red;
+       }
+        .bath{
+       margin-left: 40px;
+       position: relative;
+       margin-top: 1px;
+       cursor: pointer;
+       .bath-menu{
+        position: absolute;
+        width:200px;
+        height:0px;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 20px;
+        margin-left: -30px;
+        p{
+            margin-top:15px;
+            text-align: center;
+        }
+       }
+    } .bath:hover{
+        .bath-menu{
+            top: 50px;
+         height: 230px;
+        }
+       }
+       .bath p:hover{
+            color:red;
+       }
+       .tools{
+        margin-left: 40px;
+        cursor:pointer;
+       }
+       .tools:hover{
+         color:red;
+         text-decoration: underline;
+       }
+        .mom{
+        margin-left: 40px;
+        cursor:pointer;
+       }
+       .mom:hover{
+         color:red;
+         text-decoration: underline;
+       }
+        .wellness{
+        margin-left: 40px;
+        cursor:pointer;
+       }
+       .wellness:hover{
+         color:red;
+         text-decoration: underline;
+       }
+        .minis{
+        margin-left: 40px;
+        cursor:pointer;
+       }
+       .minis:hover{
+         color:red;
+         text-decoration: underline;
+       }
+        .homegrown{
+        margin-left: 40px;
+        cursor:pointer;
+       }
+       .homegrown:hover{
+         color:red;
+         text-decoration: underline;
+       }
+        .gifts{
+        margin-left: 40px;
+        cursor:pointer;
+       }
+       .gifts:hover{
+         color:red;
+         text-decoration: underline;
+       }
+}
+.section{
+    margin-top: 20px;
+     .image img{
+        width: 100%;
+        height: 400px;
+     }
+    
+} 
+.category{
+    display:flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+    p{
+        text-align: center;
+    }
+        img{
+            width:200px;
+            border-radius: 10px;
+        }
+        .makeup1{
+            margin-right: 20px;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+        .skin1{
+            margin-right: 20px;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+        .hair1{
+            margin-right: 20px;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+        .fragrance1{
+            margin-right: 20px;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+        .bath1{
+            margin-right: 20px;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+     }
+     .reward{
+        margin-top:50px;
+        img{
+            width:100%;
+            height:300px;
+        }
+     }
+     .new-launches{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: 30px;
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        .facewash{
+            height: 300px;
+            p{
+                text-align: center;
+            }
+            h3{
+                text-align: center;
+            }
+            button{
+                margin-left:50px;
+                background-color: black;
+                color: white;
+                padding:10px;  
+                border-radius: 10px; 
+                margin-top: 10px;   
+                cursor: pointer;                      
+            }
+        }
+         .moisturizer{
+            height: 300px;
+            margin-left: 40px;
+            p{
+                text-align: center;
+            }
+            h3{
+                text-align: center;
+            }
+            button{
+                margin-left:50px;
+                background-color: black;
+                color: white;
+                padding:10px;  
+                border-radius: 10px;
+                margin-top: 10px; 
+                cursor: pointer;                        
+            }
+        }
+        .vitamin{
+            height: 300px;
+            margin-left: 40px;
+            p{
+                text-align: center;
+            }
+            h3{
+                text-align: center;
+            }
+            button{
+                margin-left:50px;
+                background-color: black;
+                color: white;
+                padding:10px;  
+                border-radius: 10px; 
+                margin-top: 10px;  
+                cursor: pointer;          
+            }
+        }
+     }
+     .offers1{
+        margin-top: 50px;
+        img{
+            width:300px;
+        }
+        h2{
+text-align: center;        }
+        .images{
+            margin-top: 20px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                margin-right: 30px;
+                border-radius: 10px;
+            }
+        }
+     }
+     .festival{
+        margin-top: 100px;
+        img{
+            width:100%;
+            height: 300px;
+        }
+     }
+     .treats{
+        margin-top: 50px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 500px;
+            margin-right: 20px;
+        }
+     }
+     .lakme{
+        margin-top: 100px;
+        img{
+            width:100%;
+            height: 300px;
+        }
+     }
+     .contact{
+        margin-top: 100px;
+        img{
+            width:100%;
+            height: 300px;
+        }
+     }
+     .footer{
+        display:flex;
+        align-items: center;
+        width:100%;
+        height: 300px;
+        justify-content: center;
+        margin-top: 200px;
+        background-color: rgb(244, 249, 232);
+        h3{
+            color: rgb(35, 129, 73);
+        }
+        p{
+            cursor: pointer;
+        }
+        .shop{
+            margin-left: 50px;
+        }
+        .help{
+            margin-left: 50px;
+            margin-top: -35px;
+        }
+        .follow{
+            margin-top: -80px;
+            margin-left: 50px;
+            i{
+                font-size: 20px;
+                cursor: pointer;
+            }
+        }
+     }
